@@ -18,7 +18,7 @@
           <td>
             <router-link
               :to="{ name: 'edit-contact', params: { id: contact.id } }"
-              class="btn btn-warning"
+              class="btn btn-warning text-white me-3"
               >Edit</router-link
             >
             <button @click="deleteContact(contact.id)" class="btn btn-danger">

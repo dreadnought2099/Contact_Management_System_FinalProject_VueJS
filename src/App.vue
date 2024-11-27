@@ -12,3 +12,11 @@ export default {
   },
 };
 </script>
+
+<style>
+body {
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+</style>

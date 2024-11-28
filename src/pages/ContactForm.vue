@@ -90,7 +90,7 @@ export default {
 </script> -->
 
 <template>
-  <div class="container mt-5">
+  <div class="container mt-5 mb-5">
     <h2>{{ isEdit ? "Edit Contact" : "Add New Contact" }}</h2>
     <form @submit.prevent="handleSubmit">
       <div class="mb-3">
@@ -147,7 +147,7 @@ export default {
         const contact = items.value.find((c) => c.id === route.params.id);
         if (contact) Object.assign(formData.value, contact);
       } else {
-        fetchItems(); // Load items for validation, if needed
+        fetchItems();
       }
     });
 

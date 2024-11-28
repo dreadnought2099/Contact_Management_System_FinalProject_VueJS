@@ -46,7 +46,7 @@ export default {
 </script> -->
 
 <template>
-  <div class="container mt-5">
+  <div class="container mt-5 mb-5">
     <h2>Contact List</h2>
     <table class="table">
       <thead>

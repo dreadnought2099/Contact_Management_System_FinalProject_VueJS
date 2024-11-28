@@ -53,7 +53,7 @@ export default {
     // Reset the form data after submission
     const resetFormData = () => {
       formData.value = { name: "", email: "", phone: "" };
-      localStorage.removeItem("formData"); // Optional: Clear saved form data after successful submission
+      // localStorage.removeItem("formData"); // Optional: Clear saved form data after successful submission
     };
 
     // Load form data if editing an existing contact or use saved form data for new contact

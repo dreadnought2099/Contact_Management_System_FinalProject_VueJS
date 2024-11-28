@@ -29,9 +29,13 @@ export function useFirestore(collectionName) {
   };
 
   const deleteItem = async (id) => {
-    const itemRef = doc(db, collectionName, id);
-    await deleteDoc(itemRef);
-    fetchItems();
+    try {
+      const itemRef = doc(db, collectionName, id);
+      await deleteDoc(itemRef);
+      fetchItems(); // Refresh the list after deletion
+    } catch (error) {
+      console.error("Error deleting item:", error);
+    }
   };
 
   return { items, fetchItems, addItem, updateItem, deleteItem };

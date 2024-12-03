@@ -31,11 +31,11 @@ body {
 .app-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Ensure it takes the full height of the viewport */
+  min-height: 100vh;
 }
 .main-content {
-  flex: 1; /* Grow to fill available space, pushing footer to the bottom */
-  padding: 20px; /* Optional: Add padding for content spacing */
+  flex: 1;
+  padding: 20px;
 }
 
 body {

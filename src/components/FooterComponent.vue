@@ -20,6 +20,11 @@ export default {
 .footer {
   text-align: center;
 }
+
+.footer p {
+  font-size: 12px;
+}
+
 .footer a:hover {
   text-decoration: underline;
 }

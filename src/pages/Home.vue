@@ -1,6 +1,7 @@
 <template>
   <div class="container mt-5">
     <h1>Contact Management System</h1>
+    <h6>Store contacts without limits.</h6>
     <router-link to="/contacts" class="btn btn-primary mt-3 me-3"
       >View Contacts</router-link
     >

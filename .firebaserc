@@ -1,19 +1,14 @@
 {
   "projects": {
-    "default": "contact-management-syste-9f674",
-    "staging": "contact-management-syste-9f674"
+    "default": "contact-management-syste-9f674"
   },
   "targets": {
     "contact-management-syste-9f674": {
       "hosting": {
-        "staging-9b1c6": [
-          "staging-9b1c6"
-        ],
         "contact-management-syste-9f674": [
-          "dist"
+          "contact-management-syste-9f674"
         ]
       }
     }
-  },
-  "etags": {}
+  }
 }
